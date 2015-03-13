@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="3" hostname="pyrene" name="cytoscape.plugin.cheminfo.StructureDepictorTest" tests="3" time="1.883" timestamp="2008-06-20T20:21:40">
+  <properties>
+    <property name="dataDir" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/src/test" />
+    <property name="compile.deprecation" value="true" />
+    <property name="java.runtime.name" value="Java(TM) 2 Runtime Environment, Standard Edition" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/amd64" />
+    <property name="java.vm.version" value="1.5.0_15-b04" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="ant.version" value="Apache Ant version 1.7.0 compiled on August 29 2007" />
+    <property name="ant.java.version" value="1.5" />
+    <property name="java.vm.vendor" value="Sun Microsystems Inc." />
+    <property name="java.vendor.url" value="http://java.sun.com/" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="compile.optimize" value="true" />
+    <property name="user.country" value="US" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin" />
+    <property name="java.runtime.version" value="1.5.0_15-b04" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="basedir" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.file.ChemInfoPlugin" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/build.xml" />
+    <property name="cytoscape.dir" value="/opt/workspace/cytoscape" />
+    <property name="doc.dir" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/doc" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="line.separator" value="
+" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="os.name" value="Linux" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="build.dir" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/build" />
+    <property name="ant.project.name" value="ChemInfoPlugin" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.library.path" value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/amd64/server:/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/amd64:/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/../lib/amd64:/opt/java/lib/Asprise/:" />
+    <property name="java.class.version" value="49.0" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="lib.dir" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/lib" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler" />
+    <property name="os.version" value="2.6.24-19-generic" />
+    <property name="ant.file" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/build.xml" />
+    <property name="cytoscape.plugin" value="/opt/workspace/cytoscape/plugins" />
+    <property name="user.home" value="/home/djiao" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="java.specification.version" value="1.5" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="user.name" value="djiao" />
+    <property name="java.class.path" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/build/classes:/opt/workspace/cytoscape/lib/FastInfoset.jar:/opt/workspace/cytoscape/lib/activation.jar:/opt/workspace/cytoscape/lib/biojava-1.4.jar:/opt/workspace/cytoscape/lib/colt.jar:/opt/workspace/cytoscape/lib/coltginy.jar:/opt/workspace/cytoscape/lib/com-nerius-math-xform.jar:/opt/workspace/cytoscape/lib/commons-cli-1.x-cytoscape-custom.jar:/opt/workspace/cytoscape/lib/concurrent.jar:/opt/workspace/cytoscape/lib/cytoscape-cruft-obo.jar:/opt/workspace/cytoscape/lib/cytoscape-geom-rtree.jar:/opt/workspace/cytoscape/lib/cytoscape-geom-spacial.jar:/opt/workspace/cytoscape/lib/cytoscape-graph-dynamic.jar:/opt/workspace/cytoscape/lib/cytoscape-graph-fixed.jar:/opt/workspace/cytoscape/lib/cytoscape-render-export.jar:/opt/workspace/cytoscape/lib/cytoscape-render-immed.jar:/opt/workspace/cytoscape/lib/cytoscape-render-stateful.jar:/opt/workspace/cytoscape/lib/cytoscape-task.jar:/opt/workspace/cytoscape/lib/cytoscape-util-intr.jar:/opt/workspace/cytoscape/lib/ding.jar:/opt/workspace/cytoscape/lib/fing.jar:/opt/workspace/cytoscape/lib/freehep-export-2.1.1.jar:/opt/workspace/cytoscape/lib/freehep-graphics2d-2.1.1.jar:/opt/workspace/cytoscape/lib/freehep-graphicsio-2.1.1.jar:/opt/workspace/cytoscape/lib/freehep-graphicsio-java-2.1.1.jar:/opt/workspace/cytoscape/lib/freehep-graphicsio-ps-2.1.1.jar:/opt/workspace/cytoscape/lib/freehep-graphicsio-svg-2.1.1.jar:/opt/workspace/cytoscape/lib/freehep-io-2.0.2.jar:/opt/workspace/cytoscape/lib/freehep-jas-plotter-2.2.jar:/opt/workspace/cytoscape/lib/freehep-swing-2.0.3.jar:/opt/workspace/cytoscape/lib/freehep-util-2.0.2.jar:/opt/workspace/cytoscape/lib/freehep-xml-2.1.1.jar:/opt/workspace/cytoscape/lib/giny.jar:/opt/workspace/cytoscape/lib/glf.jar:/opt/workspace/cytoscape/lib/http.jar:/opt/workspace/cytoscape/lib/i4jruntime.jar:/opt/workspace/cytoscape/lib/itext-2.0.4.jar:/opt/workspace/cytoscape/lib/jaxb-api.jar:/opt/workspace/cytoscape/lib/jaxb-impl.jar:/opt/workspace/cytoscape/lib/jaxws-api.jar:/opt/workspace/cytoscape/lib/jaxws-rt.jar:/opt/workspace/cytoscape/lib/jaxws-tools.jar:/opt/workspace/cytoscape/lib/jdom-1.0.jar:/opt/workspace/cytoscape/lib/jhall.jar:/opt/workspace/cytoscape/lib/jnlp.jar:/opt/workspace/cytoscape/lib/jsr173_1.0_api.jar:/opt/workspace/cytoscape/lib/jsr181-api.jar:/opt/workspace/cytoscape/lib/jsr250-api.jar:/opt/workspace/cytoscape/lib/junit.jar:/opt/workspace/cytoscape/lib/l2fprod-common-all.jar:/opt/workspace/cytoscape/lib/looks-2.1.4.jar:/opt/workspace/cytoscape/lib/phoebe.jar:/opt/workspace/cytoscape/lib/piccolo.jar:/opt/workspace/cytoscape/lib/resolver.jar:/opt/workspace/cytoscape/lib/saaj-api.jar:/opt/workspace/cytoscape/lib/saaj-impl.jar:/opt/workspace/cytoscape/lib/sjsxp.jar:/opt/workspace/cytoscape/lib/stax-ex.jar:/opt/workspace/cytoscape/lib/streambuffer.jar:/opt/workspace/cytoscape/lib/swing-layout-1.0.1.jar:/opt/workspace/cytoscape/lib/swingx-2006_10_27.jar:/opt/workspace/cytoscape/lib/tclib.jar:/opt/workspace/cytoscape/lib/undo.support.jar:/opt/workspace/cytoscape/lib/violinstrings-1.0.2.jar:/opt/workspace/cytoscape/lib/wizard.jar:/opt/workspace/cytoscape/cytoscape.jar:/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/build/classes/core:/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/build/classes/test:/opt/workspace/csplugins/soc/djiao/CheminfoPlugin:/opt/java/lib/saxonb-9/saxon9.jar:/opt/nlp/tools/stanford-parser-2007-08-19/stanford-parser.jar:/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar" />
+    <property name="compile.debug" value="true" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.home" value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="user.language" value="en" />
+    <property name="test.dir" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/testData" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.5.0_15" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/ext" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/rt.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/i18n.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/jsse.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/jce.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/lib/charsets.jar:/usr/lib/jvm/java-1.5.0-sun-1.5.0.15/jre/classes" />
+    <property name="java.vendor" value="Sun Microsystems Inc." />
+    <property name="file.separator" value="/" />
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi" />
+    <property name="src.dir" value="/opt/workspace/csplugins/soc/djiao/CheminfoPlugin/src" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="sun.cpu.isalist" value="" />
+  </properties>
+  <testcase classname="cytoscape.plugin.cheminfo.StructureDepictorTest" name="testDepictWithUCSFSmi2Gif" time="0.0040">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at cytoscape.plugin.cheminfo.StructureDepictorTest.testDepictWithUCSFSmi2Gif(StructureDepictorTest.java:8)
+</failure>
+  </testcase>
+  <testcase classname="cytoscape.plugin.cheminfo.StructureDepictorTest" name="testConvertInchiToSmiles" time="1.815">
+    <failure message="expected:&lt;CCCC&gt; but was:&lt;null&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;CCCC&gt; but was:&lt;null&gt;
+	at cytoscape.plugin.cheminfo.StructureDepictorTest.testConvertInchiToSmiles(StructureDepictorTest.java:15)
+</failure>
+  </testcase>
+  <testcase classname="cytoscape.plugin.cheminfo.StructureDepictorTest" name="testDepiectInchi" time="0.0030">
+    <failure message="Not yet implemented" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Not yet implemented
+	at cytoscape.plugin.cheminfo.StructureDepictorTest.testDepiectInchi(StructureDepictorTest.java:19)
+</failure>
+  </testcase>
+  <system-out><![CDATA[cytoscape[INFO]: CytoscapeInit static initialization
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
